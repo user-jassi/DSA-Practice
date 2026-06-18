@@ -1,9 +1,9 @@
 /*
 *Problem: for n = 4
-       *
-      ***
-     *****
     *******
+     *****
+      ***
+       *
 
 * Approach: run the outer loop for n times , look for the symetry in the pattern 
             like how much space and * per row, then try to make a relation between n,
@@ -13,31 +13,24 @@
 *Space Complexity: O(1)
  */
 
+public class Pattern08 {
 
-public class Pattern07 {
     public void printPattern(int n){
-        for(int i = 1; i<=n; i++){
+        for(int i = n; i>=1; i--){
             for(int j =1; j<=(n-i); j++){
                 System.out.print(" ");
             }
-            for(int k = 1; k<=(2*i-1);k++){
+            for(int j = 1; j<=(2*i-1); j++){
                 System.out.print("*");
             }
-
-            //this loop is not required
-            // for(int l=1;l<=(n-i);l++){
-            //     System.out.print(" ");
-            // }
-
-            System.out.println("");
+            System.out.println("");  
         }
-
+        
     }
 
-    public static void main(String[] args){
-        Pattern07 obj = new Pattern07();
+    public static void main(String[]arg){
+        Pattern08 obj = new Pattern08();
         obj.printPattern(4);
-
     }
     
 }

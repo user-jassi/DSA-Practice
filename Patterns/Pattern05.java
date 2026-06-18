@@ -6,7 +6,7 @@
        *
 
 * Approach: run the outer loop for n times , start iteration variable(i) from n and
-            make it minus by 1 fro each iteration.
+            make it minus by 1 for each iteration.
             inner loop will run for i times and print the *
             
 
@@ -17,7 +17,7 @@
 public class Pattern05 {
 
     public void printPattern(int n){
-        for(int i =4; i>=1;i-- ){
+        for(int i =n; i>=1;i-- ){
             for(int j = 1; j<=i; j++){
                 System.out.print("*");
             }
