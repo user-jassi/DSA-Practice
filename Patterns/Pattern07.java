@@ -13,13 +13,16 @@
 *Space Complexity: O(1)
  */
 
-
 public class Pattern07 {
     public void printPattern(int n){
         for(int i = 1; i<=n; i++){
+
+            //inner loop to print the spaces
             for(int j =1; j<=(n-i); j++){
                 System.out.print(" ");
             }
+
+            //ineer loop to print the *
             for(int k = 1; k<=(2*i-1);k++){
                 System.out.print("*");
             }

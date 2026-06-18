@@ -5,9 +5,10 @@
       ***
        *
 
-* Approach: run the outer loop for n times , look for the symetry in the pattern 
-            like how much space and * per row, then try to make a relation between n,
-            row number and number of spaces or *.
+* Approach: run the outer loop for n times(to reverse a pattern, just run the outer loop in negative), 
+     look for the symetry in the pattern 
+     like how much space and * per row, then try to make a relation between n,
+     row number and number of spaces or *.
             
 *Time Complexity: O(n2)
 *Space Complexity: O(1)
