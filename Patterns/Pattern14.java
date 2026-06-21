@@ -4,10 +4,11 @@ A
 AB
 ABC
 ABCD
-
 approach:- Char is staring form A evrytime,also number of rows = n, number of char in each row = i (row number)
-           
+*Time Complexity: O(n2)
+*Space Complexity: O(1)           
 */
+
 public class Pattern14 {
     public static void printPattern(int n){
         char letter = 'A';
