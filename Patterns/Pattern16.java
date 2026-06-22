@@ -6,11 +6,9 @@ CCC
 DDDD
 EEEEE
 
-
 approach:- Observe the pattern, number of rows = n, each char is printed for ith times in each row.
 *Time Complexity: O(n2)
 *Space Complexity: O(1)  
-
 */
 
 
@@ -25,8 +23,6 @@ public class Pattern16 {
 
             System.out.println("");
         }
-
-        
     }
 
     public static void main(String arg[]){
